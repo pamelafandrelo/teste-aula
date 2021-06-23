@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>    </title>
+	</head>
+	<body>
+		<B> Exemplo 1 </B> <BR>
+		<TABLE BORDER='1'> 
+			<TR>
+				<TD bgcolor="red">Linha1/Coluna1</TD> 
+				<TD><font face="Tahoma">Linha1/Coluna2</font></TD> 
+			</TR> 
+			<TR>
+				<TD><b>Linha2/Coluna1</b></TD> 
+				<TH>Linha</TH> 
+			</TR> 
+		</TABLE> 
+		<BR>
+
+		<b> Exemplo 2: inserindo imagem na célula da tabela, nesse caso uma imagem de borboleta com a extensão .jpg </b> <br>
+		<TABLE BORDER='1'> 
+			<TR>
+				<TD> <img src="borboleta.jpg"></TD> 
+				<TD><font face="Tahoma">Linha1/Coluna2</font></TD> 
+			</TR> 
+			<TR>
+				<TD><b>Linha2/Coluna1</b></TD> 
+				<TH>Linha</TH> 
+			</TR> 
+		</TABLE> 
+		<BR>
+
+		<b> Exemplo 3  - mesclagem de célula</b> <br>
+		<TABLE BORDER='1'> 
+			<TR>
+				<TD>Linha1/Coluna1</TD> 	
+				<TD>Linha1/Coluna2</TD> 
+			</TR> 
+			<TR>
+				<TD>Linha2/Coluna1</TD> 
+				<TD>Linha2/Coluna2</TD> 
+			</TR> 
+			<TR>
+				<TD>Linha3/Coluna1</TD> 
+				<TD>Linha3/Coluna1</TD> 
+			</TR> 
+		</TABLE> 
+		
+		<BR>
+
+		<b> Exemplo 3.1  - mesclagem de célula</b> <br>
+		<TABLE BORDER='1'> 
+			<TR>
+				<TD rowspan='2'>Linha1 e 2/Coluna1</TD> 	
+				<TD>Linha1/Coluna2</TD> 
+			</TR> 
+			<TR>
+				<!-- <TD>Linha2/Coluna1</TD> comento essa linha porque a linha 1 e 2 já esta ocupando o lugar-->
+				<TD>Linha2/Coluna2</TD> 
+			</TR> 
+			<TR>
+				<TD colspan='2'>Linha3/Coluna1</TD> 
+				<!-- <TD>Linha3/Coluna1</TD> comento essa linha porque a linha 3 / coluna 1 e 2 esta ocupando o lugar -->
+			</TR> 
+		</TABLE> 
+
+	</body>
+</html>
